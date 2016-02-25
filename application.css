@@ -23,7 +23,10 @@ body{
         background: url(http://assets.codecloudapp.com/sites/56cf790c6e6f641ef8020000/image/jpeg/1456437782000/bgs-2.jpg) no-repeat;
         background-size:cover;
     }
-    
+    .main_logo{
+        width: 420px;
+        margin-bottom: 25px;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
