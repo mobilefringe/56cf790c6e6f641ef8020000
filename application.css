@@ -20,7 +20,7 @@ body{
 @media (min-width: 992px) {
     .hero_banner{
         height:100vh;
-        background: url(http://assets.codecloudapp.com/sites/56cf790c6e6f641ef8020000/image/jpeg/1456437782000/bgs-2.jpg);
+        background: url(http://assets.codecloudapp.com/sites/56cf790c6e6f641ef8020000/image/jpeg/1456437782000/bgs-2.jpg) no-repeat;
     }
     
 }
