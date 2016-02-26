@@ -20,6 +20,7 @@
              ga('send', 'pageview');
     
         </script>
+        <script src="//s3.amazonaws.com/kodekloud/sites/56cf790c6e6f641ef8020000/application/x-javascript/1448835474000/slick.min.js"></script>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
