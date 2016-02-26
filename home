@@ -1,4 +1,21 @@
 <div class="hero_banner">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+    </div>
+
     <div class="hero_text text-center">
         <img src="http://assets.codecloudapp.com/sites/56cf790c6e6f641ef8020000/image/png/1456438081000/logo.png" class="main_logo" alt="logo">
         <p class="main_desc margin_custom">
