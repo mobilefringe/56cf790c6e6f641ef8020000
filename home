@@ -1,10 +1,10 @@
 <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
     <!-- Carousel items -->
     <div class="carousel-inner">
-        <div class="active item">
+        <div class="active">
             <img src="http://assets.codecloudapp.com/sites/56cf790c6e6f641ef8020000/image/jpeg/1456520271000/bgs-2.jpg" class="" alt="">
         </div>
-        <div class="item">
+        <div>
             <img src="http://assets.codecloudapp.com/sites/56cf790c6e6f641ef8020000/image/jpeg/1456520275000/bgs-3.jpg" class="" alt="">
         </div>
     </div>
