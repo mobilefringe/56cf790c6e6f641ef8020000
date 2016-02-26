@@ -24,6 +24,7 @@
 <script>
     $(document).ready(function(){
         $('.fade').slick({
+        arrows: false,
         dots: false,
         infinite: true,
         speed: 100,
