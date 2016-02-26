@@ -17,9 +17,8 @@
     $(document).ready(function() {
         $(".hero_banner").backgroundCycle({
             imageUrls: [
-                'res/img/bg1.jpg',
-                'res/img/bg2.jpg',
-                'res/img/bg3.jpg'
+                'http://assets.codecloudapp.com/sites/56cf790c6e6f641ef8020000/image/jpeg/1456437782000/bgs-2.jpg',
+                'http://assets.codecloudapp.com/sites/56cf790c6e6f641ef8020000/image/jpeg/1456437775000/bgs_mobile@2x.jpg'
             ],
             fadeSpeed: 2000,
             duration: 5000,
