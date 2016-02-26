@@ -12,3 +12,18 @@
         </p>
     </div>
 </div>
+
+<script type="text/javascript">
+            $(document).ready(function() {
+                $("body").backgroundCycle({
+                    imageUrls: [
+                        'res/img/bg1.jpg',
+                        'res/img/bg2.jpg',
+                        'res/img/bg3.jpg'
+                    ],
+                    fadeSpeed: 2000,
+                    duration: 5000,
+                    backgroundSize: SCALING_MODE_COVER
+                });
+            });
+        </script>
