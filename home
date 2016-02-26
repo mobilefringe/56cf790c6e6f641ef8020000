@@ -1,4 +1,5 @@
 <div class="hero_banner">
+    
     <div class="hero_text text-center">
         <img src="http://assets.codecloudapp.com/sites/56cf790c6e6f641ef8020000/image/png/1456438081000/logo.png" class="main_logo" alt="logo">
         <p class="main_desc margin_custom">
@@ -12,3 +13,15 @@
         </p>
     </div>
 </div>
+
+<script>
+    $(document).ready(function(){
+        $('.fade').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+    });
+    })
+</script>
