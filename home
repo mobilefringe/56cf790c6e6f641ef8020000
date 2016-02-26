@@ -14,20 +14,20 @@
         <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
         <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
     </div>
-<div class="hero_banner">
-    <div class="hero_text text-center">
-        <img src="http://assets.codecloudapp.com/sites/56cf790c6e6f641ef8020000/image/png/1456438081000/logo.png" class="main_logo" alt="logo">
-        <p class="main_desc margin_custom">
-            Focus on what you love, we take care of the rest!
-        </p>
-        <p class="main_desc text-left">
-            nuStylist software is specifically designed <br class="show_phone" /><u>for Booth Renters <br class="show_phone" />by Booth Renters.</u>
-        </p>
-        <p class="main_desc text-left">
-            More details to come - <br class="show_phone" /><b>This is going to change <br class="show_phone" />everything.</b>
-        </p>
-    </div>
-</div>
+<!--<div class="hero_banner">-->
+<!--    <div class="hero_text text-center">-->
+<!--        <img src="http://assets.codecloudapp.com/sites/56cf790c6e6f641ef8020000/image/png/1456438081000/logo.png" class="main_logo" alt="logo">-->
+<!--        <p class="main_desc margin_custom">-->
+<!--            Focus on what you love, we take care of the rest!-->
+<!--        </p>-->
+<!--        <p class="main_desc text-left">-->
+<!--            nuStylist software is specifically designed <br class="show_phone" /><u>for Booth Renters <br class="show_phone" />by Booth Renters.</u>-->
+<!--        </p>-->
+<!--        <p class="main_desc text-left">-->
+<!--            More details to come - <br class="show_phone" /><b>This is going to change <br class="show_phone" />everything.</b>-->
+<!--        </p>-->
+<!--    </div>-->
+<!--</div>-->
 
 <script>
     $(document).ready(function(){
