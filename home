@@ -15,7 +15,7 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $("body").backgroundCycle({
+        $(".hero_banner").backgroundCycle({
             imageUrls: [
                 'res/img/bg1.jpg',
                 'res/img/bg2.jpg',
