@@ -6,6 +6,7 @@ $(document).ready(function(){
         post_data.mailto = "rajbir@mobilefringe.com";
         post_data.subject = "nuStylist Sign up";
         custom = {};
+        custom.description = "New sign up on nuStylist Website"
         custom.email = $('#fieldEmail').val()
         post_data.custom = custom;
         $.getJSON(
