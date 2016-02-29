@@ -19,6 +19,7 @@ $(document).ready(function(){
                 $.getJSON(
                     this.action + "?callback=?",
                     $(this).serialize()
+                )
                 });
             }
             else{
