@@ -19,9 +19,9 @@ $(document).ready(function(){
                     }
                     else{
                        $("#subscription_confirmed").fadeIn();
-                    $('#subscription_confirmed').delay(2000).fadeOut();
-                    $('#subForm').trigger('reset');
-                    $('.sign_up_btn').prop('disabled', false)
+                        $('#subscription_confirmed').delay(2000).fadeOut();
+                        $('#subForm').trigger('reset');
+                        $('.sign_up_btn').prop('disabled', false)
                    }
                 });
             }
