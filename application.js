@@ -1,5 +1,6 @@
 $('#subForm').submit(function(e){
     e.preventDefault();
+    $('.sign_up_btn').prop('disabled', true)
     $.getJSON(
         this.action + "?callback=?",
         $(this).serialize(),
