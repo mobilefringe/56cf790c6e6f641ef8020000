@@ -19,8 +19,16 @@ $(document).ready(function(){
                 $('.sign_up_btn').prop('disabled', false)
                 $.getJSON(
                     this.action + "?callback=?",
-                    $(this).serialize()
-                )
+                    $(this).serialize(),
+                    function (data) {
+                        if (data.Status === 400) {
+                            alert("An error occured while processing your request. Please try again later.");
+                        } else { // 200
+                            $("#subscription_confirmed").fadeIn();
+                            $('#subscription_confirmed').delay(2000).fadeOut();
+                            $('#subForm').trigger('reset');
+                        }
+                });
             }
             else{
                 alert("Unable to process your request. Please try again later.")
