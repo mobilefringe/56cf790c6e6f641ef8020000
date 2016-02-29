@@ -1,11 +1,12 @@
 $(document).ready(function(){
     $('#subForm').submit(function(e){
-        alert("here")
         e.preventDefault();
+        $('#fieldName').val($('#first_name').val() + " " + $('#last_name').val() )
         $('.sign_up_btn').prop('disabled', true)
         var post_data = {}
         post_data.mailto = "rajbir@mobilefringe.com";
         post_data.subject = "nuStylist Sign up";
+        post_data.name = $('#fieldName').val()
         custom = {};
         custom.description = "New sign up on nuStylist Website";
         custom.email = $('#fieldEmail').val();
