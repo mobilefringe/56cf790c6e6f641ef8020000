@@ -5,7 +5,7 @@ $('#subForm').submit(function(e){
     post_data.mailto = "rajbir@mobilefringe.com";
     post_data.subject = "nuStylist Sign up";
     custom = {};
-    custom.email = $('#email').val()
+    custom.email = $('#fieldEmail').val()
     $.getJSON(
         this.action + "?callback=?",
         $(this).serialize(),
