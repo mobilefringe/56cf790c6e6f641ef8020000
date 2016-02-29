@@ -18,14 +18,7 @@ $(document).ready(function(){
                 $('.sign_up_btn').prop('disabled', false)
                 $.getJSON(
                     this.action + "?callback=?",
-                    $(this).serialize(),
-                    function (data) {
-                        if (data.Status === 400) {
-                            alert("An error occured while processing your request. Please try again later.");
-                        } else { // 200
-                            
-                            
-                        }
+                    $(this).serialize()
                 });
             }
             else{
