@@ -11,6 +11,7 @@ $('#subForm').submit(function(e){
                 $("#subscription_confirmed").fadeIn();
                 $('#subscription_confirmed').delay(2000).fadeOut();
                 $('#subForm').trigger('reset');
+                $('.sign_up_btn').prop('disabled', false)
             }
     });
 });
