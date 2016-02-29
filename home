@@ -38,7 +38,7 @@
         <p class="main_desc text-left">
             More details to come - <br class="show_phone" /><b>This is going to change <br class="show_phone" />everything.</b>
         </p>
-        <h4>Sign up to join our launch and get special introductory pricing</h4>
+        <h4 class="sign_up">Sign up to join our launch and get special introductory pricing</h4>
     </div>
 </div>
 
