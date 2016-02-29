@@ -45,7 +45,7 @@
                     <input id="first_name"  type="text" placeholder="First Name*" class="form_control" required />
                 </div>
                 <div class="col-md-6">
-                    <input id="first_name"  type="text" placeholder="First Name*" class="form_control" required />
+                    <input id="last_name"  type="text" placeholder="Last Name*" class="form_control" required />
                 </div>
             </div>
             <div class="row">
