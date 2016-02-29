@@ -27,6 +27,7 @@
         </p>
         <h4 class="sign_up">Sign up to join our launch and get special introductory pricing</h4>
         <form action="http://mobilefringe.createsend.com/t/d/s/krkjku/" method="post" id="subForm">
+            <input id="fieldName" name="cm-name" type="hidden" />
             <div class="row">
                 <div class="col-md-6 half">
                     <input id="first_name"  type="text" placeholder="First Name*" class="form_control" required />
