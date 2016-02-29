@@ -1,5 +1,5 @@
 $('#subForm').submit(function(e){
-    alert(""here)
+    alert("here")
     e.preventDefault();
     $('.sign_up_btn').prop('disabled', true)
     var post_data = {}
