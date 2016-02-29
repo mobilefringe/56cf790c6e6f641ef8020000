@@ -1,6 +1,12 @@
 $('#subForm').submit(function(e){
     e.preventDefault();
     $('.sign_up_btn').prop('disabled', true)
+    var post_data = {}
+    post_data.mailto = "info@retailmaverick.com";
+    post_data.subject = "RM Sign up";
+    custom = {};
+    custom.name = $('#full_name').val();
+    custom.email = $('#email').val()
     $.getJSON(
         this.action + "?callback=?",
         $(this).serialize(),
