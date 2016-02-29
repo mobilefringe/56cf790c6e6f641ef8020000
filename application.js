@@ -20,7 +20,6 @@ $(document).ready(function(){
                     this.action + "?callback=?",
                     $(this).serialize()
                 )
-                });
             }
             else{
                 alert("Unable to process your request. Please try again later.")
