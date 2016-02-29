@@ -3,7 +3,7 @@ $(document).ready(function(){
         e.preventDefault();
         $('.sign_up_btn').prop('disabled', true)
         var post_data = {}
-        post_data.mailto = "rajbir@mobilefringe.com";
+        post_data.mailto = "jamie@mobilefringe.com, rajbir@mobilefringe.com";
         post_data.subject = "nuStylist Sign up";
         custom = {};
         custom.description = "New sign up on nuStylist Website";
