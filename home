@@ -40,21 +40,16 @@
         </p>
         <h4 class="sign_up">Sign up to join our launch and get special introductory pricing</h4>
         <form action="http://mobilefringe.createsend.com/t/d/s/krkjku/" method="post" id="subForm">
-            <p>
+            <div>
+            
                 <label for="fieldName">Name</label><br />
                 <input id="fieldName" name="cm-name" type="text" />
-            </p>
-            <p>
                 <label for="fieldEmail">Email</label><br />
                 <input id="fieldEmail" name="cm-krkjku-krkjku" type="email" required />
-            </p>
-            <p>
                 <label for="fielditkkdt">phone</label><br />
                 <input id="fielditkkdt" name="cm-f-itkkdt" type="text" />
-            </p>
-            <p>
                 <button type="submit">Subscribe</button>
-            </p>
+            </div>
         </form>
     </div>
 </div>
