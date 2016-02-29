@@ -50,8 +50,9 @@
                 <div class="clearfix"></div>
             </div>
             <input id="fieldEmail" name="cm-krkjku-krkjku" type="email" placeholder="Email*" class="form_control" required />
-                <div class="clearfix"></div>
-                <p id="subscription_confirmed">Thank you for signing up. We will contact you soon.</p>
+            <button type="submit" class="sign_up_btn">Sign Up!</button>
+            <div class="clearfix"></div>
+            <p id="subscription_confirmed">Thank you for signing up. We will contact you soon.</p>
                 
             </div>
         </form>
