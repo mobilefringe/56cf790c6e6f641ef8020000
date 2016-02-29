@@ -43,7 +43,6 @@
             <div class="row">
                 <div class="col-md-6">
                     <input id="fieldEmail" name="cm-krkjku-krkjku" type="email" placeholder="Email*" class="form_control" required />
-                    <input id="fieldEmail" name="cm-krkjku-krkjku" type="email" placeholder="Email*" class="form_control" required />
                 </div>
                 <div class="col-md-6 mobile_right">
                     <button type="submit" class="sign_up_btn">Sign Up!</button>
