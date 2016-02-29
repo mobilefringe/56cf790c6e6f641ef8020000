@@ -40,7 +40,7 @@
         </p>
         <h4 class="sign_up">Sign up to join our launch and get special introductory pricing</h4>
         <form action="http://mobilefringe.createsend.com/t/d/s/krkjku/" method="post" id="subForm">
-            <div>
+            <div class="row">
             
                 <label for="fieldName">Name</label><br />
                 <input id="fieldName" name="cm-name" type="text" />
