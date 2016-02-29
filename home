@@ -45,7 +45,7 @@
                     <input id="fieldName" name="cm-name" type="text" placeholder="Name" />    
                 </div>
                 <div class="col-md-6">
-                    <input id="fieldEmail" name="cm-krkjku-krkjku" type="email" required />
+                    <input id="fieldEmail" name="cm-krkjku-krkjku" type="email" placeholder="Email*" required />
                 </div>
                 <div class="col-md-6">
                     <input id="fielditkkdt" name="cm-f-itkkdt" type="text" />
