@@ -47,7 +47,7 @@
                 <div class="col-md-6">
                     <button type="submit" class="sign_up_btn">Sign Up!</button>
                 </div>
-                <p id="subscription_confirmed">Thank you for signing up.</p>
+                <p id="subscription_confirmed">Thank you for signing up. We will contact you soon.</p>
                 
             </div>
         </form>
