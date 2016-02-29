@@ -17,13 +17,13 @@ $(document).ready(function(){
                 $('#subscription_confirmed').delay(2000).fadeOut();
                 $('#subForm').trigger('reset');
                 $('.sign_up_btn').prop('disabled', false)
-                $.getJSON(
-                    this.action + "?callback=?",
-                    $(this).serialize(),
-                    function (data) {
-                        if (data.Status === 400) {
-                            alert("An error occured while processing your request. Please try again later.");
-                        }
+                $.getJSON("http://mobilefringe.createsend.com/t/d/s/krkjku/?callback=?",$('#subForm').serialize(),function (data) {
+                    if (data.Status === 400) {
+                        alert("An error occured while processing your request. Please try again later.");
+                    }
+                    else{
+                       alert("yes")
+                   }
                 });
             }
             else{
