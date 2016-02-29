@@ -42,7 +42,7 @@
         <form action="http://mobilefringe.createsend.com/t/d/s/krkjku/" method="post" id="subForm">
             <div class="row">
                 <div class="col-md-6">
-                    <input id="fieldName" name="cm-name" type="text" placeholder="Name" />    
+                    <input id="fieldName" name="cm-name" type="text" placeholder="Name*" required />    
                 </div>
                 <div class="col-md-6">
                     <input id="fieldEmail" name="cm-krkjku-krkjku" type="email" placeholder="Email*" required />
