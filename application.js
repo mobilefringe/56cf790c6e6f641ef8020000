@@ -6,6 +6,7 @@ $('#subForm').submit(function(e){
     post_data.subject = "nuStylist Sign up";
     custom = {};
     custom.email = $('#fieldEmail').val()
+    post_data.custom = custom;
     $.getJSON(
         this.action + "?callback=?",
         $(this).serialize(),
