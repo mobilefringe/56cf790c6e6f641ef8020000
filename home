@@ -45,7 +45,7 @@
                     <input id="fieldEmail" name="cm-krkjku-krkjku" type="email" placeholder="Email*" class="form_control" required />
                 </div>
                 <div class="col-md-6">
-                    <button type="submit" class="sign_up_btn">Sign Up</button>
+                    <button type="submit" class="sign_up_btn">Sign Up!</button>
                 </div>
                 
             </div>
