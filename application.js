@@ -2,8 +2,8 @@ $('#subForm').submit(function(e){
     e.preventDefault();
     $('.sign_up_btn').prop('disabled', true)
     var post_data = {}
-    post_data.mailto = "info@retailmaverick.com";
-    post_data.subject = "RM Sign up";
+    post_data.mailto = "rajbir@mobilefringe.com";
+    post_data.subject = "nuStylist Sign up";
     custom = {};
     custom.name = $('#full_name').val();
     custom.email = $('#email').val()
