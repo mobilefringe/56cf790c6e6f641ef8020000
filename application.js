@@ -1,6 +1,5 @@
 $('#subForm').submit(function(e){
     e.preventDefault();
-    if($("#agree_newsletter").is(':checked')){
         $.getJSON(
             this.action + "?callback=?",
             $(this).serialize(),
