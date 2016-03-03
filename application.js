@@ -33,6 +33,7 @@ $(document).ready(function(){
             }
         });
         var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        alert(ss)
         if (iOS){
             $("#subscription_confirmed").fadeIn();
             $('#subscription_confirmed').delay(2000).fadeOut();
