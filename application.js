@@ -11,11 +11,11 @@ $(document).ready(function(){
         custom.email = $('#fieldEmail').val();
         custom.name = $('#fieldName').val();
         post_data.custom = custom;
+        var ss = false;
         
         $.post("http://home.mallmaverick.com/custom_email", post_data, function(data, status, xhr){
             if(status == "success"){
-                
-                
+                ss = true
                 $.getJSON("http://mobilefringe.createsend.com/t/d/s/krkjku/?callback=?",$('#subForm').serialize(),function (data) {
                     if (data.Status === 400) {
                         alert("An error occured while processing your request. Please try again later.");
