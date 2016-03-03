@@ -13,11 +13,8 @@ $(document).ready(function(){
         post_data.custom = custom;
         $.post("http://home.mallmaverick.com/custom_email", post_data, function(data, status, xhr){
             if(status == "success"){
-                    alert("here")
-                var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-                if (iOS){
                 
-                }
+                
                 $.getJSON("http://mobilefringe.createsend.com/t/d/s/krkjku/?callback=?",$('#subForm').serialize(),function (data) {
                     if (data.Status === 400) {
                         alert("An error occured while processing your request. Please try again later.");
