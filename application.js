@@ -12,7 +12,7 @@ $(document).ready(function(){
         custom.name = $('#fieldName').val();
         post_data.custom = custom;
         var ss = false;
-        
+        jQuery.ajaxSetup({async:false});
         $.post("http://home.mallmaverick.com/custom_email", post_data, function(data, status, xhr){
             if(status == "success"){
                 ss = true
@@ -39,5 +39,6 @@ $(document).ready(function(){
             $('#subForm').trigger('reset');
             $('.sign_up_btn').prop('disabled', false)
         }
+        jQuery.ajaxSetup({async:true});
     });
 });
