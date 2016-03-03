@@ -33,11 +33,11 @@ $(document).ready(function(){
             }
         });
         var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-                if (iOS){
-                    $("#subscription_confirmed").fadeIn();
-                    $('#subscription_confirmed').delay(2000).fadeOut();
-                    $('#subForm').trigger('reset');
-                    $('.sign_up_btn').prop('disabled', false)
-                }
+        if (iOS){
+            $("#subscription_confirmed").fadeIn();
+            $('#subscription_confirmed').delay(2000).fadeOut();
+            $('#subForm').trigger('reset');
+            $('.sign_up_btn').prop('disabled', false)
+        }
     });
 });
