@@ -11,6 +11,7 @@ $(document).ready(function(){
         custom.email = $('#fieldEmail').val();
         custom.name = $('#fieldName').val();
         post_data.custom = custom;
+        
         $.post("http://home.mallmaverick.com/custom_email", post_data, function(data, status, xhr){
             if(status == "success"){
                 
@@ -31,5 +32,9 @@ $(document).ready(function(){
                 alert("Unable to process your request. Please try again later.")
             }
         });
+        var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+                if (iOS){
+                    alert("ios")
+                }
     });
 });
