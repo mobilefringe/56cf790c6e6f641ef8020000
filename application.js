@@ -15,7 +15,7 @@ $(document).ready(function(){
             if(status == "success"){
                 var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
                 if (iOS){
-                    alert(ios)
+                    alert("ios")
                 }
                 $.getJSON("http://mobilefringe.createsend.com/t/d/s/krkjku/?callback=?",$('#subForm').serialize(),function (data) {
                     if (data.Status === 400) {
