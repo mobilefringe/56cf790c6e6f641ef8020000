@@ -41,7 +41,7 @@ $(document).ready(function(){
             }
         }
         else{
-            alert("Please fill out the required fields before continuinung.")
+            alert("Please fill out the required fields.")
         }
     });
 });
