@@ -11,7 +11,7 @@ $(document).ready(function(){
         custom.email = $('#fieldEmail').val();
         custom.name = $('#fieldName').val();
         post_data.custom = custom;
-        if(){
+        if($('#first_name').val() !="" && $('#last_name').val() != "" && $('#first_name').val() != ""){
             $.post("http://home.mallmaverick.com/custom_email", post_data, function(data, status, xhr){
                 if(status == "success"){
                     
