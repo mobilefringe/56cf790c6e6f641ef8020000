@@ -42,6 +42,7 @@ $(document).ready(function(){
         }
         else{
             alert("Please fill out the required fields.")
+            $('.sign_up_btn').prop('disabled', false)
         }
     });
 });
