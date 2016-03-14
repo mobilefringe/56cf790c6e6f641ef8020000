@@ -37,6 +37,7 @@ $(document).ready(function(){
             else{
                 alert("Please enter a valid email.")
                 $('.sign_up_btn').prop('disabled', false)
+                $('#fieldEmail').focus()
             }
             var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
             if (iOS){
