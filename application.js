@@ -4,6 +4,7 @@ $(document).ready(function(){
         $('#fieldName').val($('#first_name').val() + " " + $('#last_name').val() )
         $('.sign_up_btn').prop('disabled', true)
         var post_data = {}
+        var form_data= "";
         post_data.mailto = "rajbir@mobilefringe.com";
         post_data.subject = "nuStylist Sign up";
         custom = {};
@@ -11,11 +12,12 @@ $(document).ready(function(){
         custom.email = $('#fieldEmail').val();
         custom.name = $('#fieldName').val();
         post_data.custom = custom;
+        form_data = "cm-name=" + $('#fieldName').val() + "&cm-krkjku-krkjku=" + $('#fieldEmail').val()
         if($('#first_name').val() !="" && $('#last_name').val() != "" && $('#fieldEmail').val() != ""){
             if(validateEmail($('#fieldEmail').val())){
                 $.post("http://home.mallmaverick.com/custom_email", post_data, function(data, status, xhr){
                     if(status == "success"){
-                        $.getJSON("http://mobilefringe.createsend.com/t/d/s/krkjku/?callback=?",form_data,function (data) {
+                        $.getJSON("http://mobilefringe.createsend.com/t/d/s/krkjku/?callback=?",form_data, function (data) {
                             
                             console.log(data)
                             if (data.Status === 400) {
