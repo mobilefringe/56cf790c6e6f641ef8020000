@@ -15,8 +15,6 @@ $(document).ready(function(){
             if(validateEmail($('#fieldEmail').val())){
                 $.post("http://home.mallmaverick.com/custom_email", post_data, function(data, status, xhr){
                     if(status == "success"){
-                        
-                        
                         $.getJSON("http://mobilefringe.createsend.com/t/d/s/krkjku/?callback=?",$('#subForm').serialize(),function (data) {
                             if (data.Status === 400) {
                                 alert("An error occured while processing your request. Please try again later.");
