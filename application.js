@@ -35,7 +35,7 @@ $(document).ready(function(){
                 });
             }
             else{
-                alert("Please fill out the required fields.")
+                alert("Please enter a valid email.")
                 $('.sign_up_btn').prop('disabled', false)
             }
             var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
