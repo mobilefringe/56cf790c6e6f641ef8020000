@@ -39,7 +39,8 @@ $(document).ready(function(){
                 $('.sign_up_btn').prop('disabled', false)
                 $('#fieldEmail').focus()
             }
-            var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            
+            var iOS = /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent) && !window.MSStream;
             if (iOS){
                 $("#subscription_confirmed").fadeIn();
                 $('#subscription_confirmed').delay(2000).fadeOut();
