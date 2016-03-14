@@ -33,6 +33,13 @@ $(document).ready(function(){
                         alert("Unable to process your request. Please try again later.")
                     }
                 });
+                var iOS = /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent) && !window.MSStream;
+                if (iOS){
+                    $("#subscription_confirmed").fadeIn();
+                    $('#subscription_confirmed').delay(2000).fadeOut();
+                    $('#subForm').trigger('reset');
+                    $('.sign_up_btn').prop('disabled', false)
+                }
             }
             else{
                 alert("Please enter a valid email.")
@@ -40,13 +47,6 @@ $(document).ready(function(){
                 $('#fieldEmail').focus()
             }
             
-            var iOS = /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent) && !window.MSStream;
-            if (iOS){
-                $("#subscription_confirmed").fadeIn();
-                $('#subscription_confirmed').delay(2000).fadeOut();
-                $('#subForm').trigger('reset');
-                $('.sign_up_btn').prop('disabled', false)
-            }
         }
         else{
             alert("Please fill out the required fields.")
