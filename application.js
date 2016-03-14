@@ -37,10 +37,19 @@ $(document).ready(function(){
                 });
                 var iOS = /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent) && !window.MSStream;
                 if (iOS){
-                    $("#subscription_confirmed").fadeIn();
-                    $('#subscription_confirmed').delay(2000).fadeOut();
-                    $('#subForm').trigger('reset');
-                    $('.sign_up_btn').prop('disabled', false)
+                    $.getJSON("http://mobilefringe.createsend.com/t/d/s/krkjku/?callback=?",form_data, function (data) {
+                            
+                        console.log(data)
+                        if (data.Status === 400) {
+                            alert("An error occured while processing your request. Please try again later.");
+                        }
+                        else{
+                           $("#subscription_confirmed").fadeIn();
+                            $('#subscription_confirmed').delay(2000).fadeOut();
+                            $('#subForm').trigger('reset');
+                            $('.sign_up_btn').prop('disabled', false)
+                       }
+                    });
                 }
             }
             else{
