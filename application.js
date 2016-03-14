@@ -10,6 +10,8 @@ $(document).ready(function(){
         custom.description = "New sign up on nuStylist Website";
         custom.email = $('#fieldEmail').val();
         custom.name = $('#fieldName').val();
+        
+        
         post_data.custom = custom;
         if($('#first_name').val() !="" && $('#last_name').val() != "" && $('#fieldEmail').val() != ""){
             $.post("http://home.mallmaverick.com/custom_email", post_data, function(data, status, xhr){
