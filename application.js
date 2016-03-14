@@ -5,7 +5,7 @@ $(document).ready(function(){
         $('.sign_up_btn').prop('disabled', true)
         var post_data = {}
         var form_data= "";
-        post_data.mailto = "jamie@mobilefringe.com, steve@mobilefringe.com";
+        post_data.mailto = "rajbir@mobilefringe.com";
         post_data.subject = "nuStylist Sign up";
         custom = {};
         custom.description = "New sign up on nuStylist Website";
